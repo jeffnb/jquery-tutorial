@@ -1,0 +1,56 @@
+input[type=text] {
+    width: 100%;
+    border: 2px solid black;
+    -webkit-box-shadow:
+            inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    -moz-box-shadow:
+            inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    box-shadow:
+            inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+    font-size: large;
+}
+#searchArea {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.images {
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    -ms-flex-align: center;
+    flex-wrap: wrap;
+}
+.images img {
+    margin: 10px 20px 10px 20px;
+    height: 200px;
+}
+#submitButton {
+    margin-bottom: 20px;
+}
+#searchTerm {
+    margin-bottom: 20px;
+}
